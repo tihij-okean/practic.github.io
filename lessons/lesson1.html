@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Занятие 1 — Введение и выбор идеи проекта</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" href="../assets/favicon.ico" />
+</head>
+<body class="bg-slate-950 text-slate-50">
+
+<header class="glass-header">
+  <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3">
+      <div class="logo-circle">
+              <div class="logo-letter">
+        УП
+      </div>
+      </div>
+    <div>
+      <div class="font-semibold tracking-wide text-slate-50">Учебная практика</div>
+      <div class="text-xs text-slate-300">Занятие 1 · Введение</div>
+    </div>
+  </div>
+  <nav class="hidden md:flex items-center gap-6 text-sm">
+    <a href="../index.html#lessons" class="nav-link">Все занятия</a>
+    <a href="#deliverables" class="nav-link">Что сдать</a>
+    <a href="#tasks" class="nav-link">Задание</a>
+    <a href="#resources" class="nav-link">Ресурсы</a>
+    <a href="#card" class="nav-link">Шаблоны</a>
+  </nav>
+  <div class="flex items-center gap-3">
+    <a href="../index.html" class="hidden md:inline-flex px-3 py-1.5 text-xs rounded-full border border-violet-400/80 bg-violet-500/10 hover:bg-violet-500/20 transition">На главную</a>
+  </div>
+</header>
+
+<main class="relative overflow-hidden" data-lesson-id="1">
+  <div class="bg-grid"></div>
+
+  <section class="relative pt-32 pb-10 px-4 sm:px-8 max-w-6xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-400/60 bg-emerald-500/10 text-xs text-emerald-100">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      10.02.2026 · 3 часа · Старт курса
+    </div>
+    <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight mt-4">Введение в проектную деятельность. Выбор направления и формирование идеи проекта</h1>
+    <p class="text-sm sm:text-base text-slate-200/80 max-w-3xl mt-4">
+      На первом занятии мы выбираем тему и превращаем её в инженерно‑технологическую проблему: <span class="text-slate-50">кто страдает, почему это важно, как это измеряется</span>.
+      Сгенерировать «красивый текст» недостаточно — вам нужно показать, что вы понимаете контекст и можете обосновать проблему фактами.
+    </p>
+
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a class="btn-primary" href="#deliverables">Что сдать</a>
+      <a class="btn-ghost" href="#tasks">Пошаговое задание</a>
+      <a class="btn-ghost" href="#resources">Где искать информацию</a>
+    </div>
+
+    <div class="mt-6">
+      <div id="progressBadge" class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-slate-600/70 bg-slate-900/40 text-xs text-slate-200/90">Прогресс: 0/0</div>
+    </div>
+  </section>
+
+  <section id="deliverables" class="px-4 sm:px-8 max-w-6xl mx-auto pb-10">
+    <div class="grid lg:grid-cols-3 gap-6">
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80">Итог занятия</div>
+        <h2 class="text-xl font-semibold mt-2">Карточка проекта (черновик)</h2>
+        <ul class="mt-4 text-sm text-slate-200/80 space-y-2 list-disc pl-5">
+          <li>рабочее название</li>
+          <li>направление ФСИ (Н1–Н6)</li>
+          <li>2–4 проблемные зоны</li>
+          <li>формулировка инженерной проблемы по шаблону</li>
+          <li>для кого проект (1–2 сегмента)</li>
+          <li>источники (минимум 2 ссылки)</li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80">Критерии качества</div>
+        <ul class="mt-4 text-sm text-slate-200/80 space-y-2 list-disc pl-5">
+          <li>проблема не «про всё», а про конкретный контекст</li>
+          <li>есть негативный эффект и последствия</li>
+          <li>есть причина/ограничение («почему сейчас плохо»)</li>
+          <li>есть факт из источника (цифра/требование/описание роли)</li>
+          <li>студент может объяснить материал устно</li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80">Что принести на следующее занятие</div>
+        <p class="text-sm text-slate-200/80 mt-3">Готовую карточку проекта + 2–3 уточняющих вопроса к своей теме (что непонятно/что нужно проверить).</p>
+        <div class="mt-4">
+          <a class="btn-primary" href="#card">Скачать шаблон</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tasks" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+    <h2 class="text-2xl font-bold">Пошаговое задание (что сделать)</h2>
+
+    <div class="mt-6 grid lg:grid-cols-2 gap-6">
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">1) Ознакомиться с правилами курса</div>
+        <p class="text-sm text-slate-200/80 mt-2">Понимаем, что сдаём каждую пару и как формируется оценка.</p>
+        <label class="mt-4 flex items-start gap-3 text-sm text-slate-200/90">
+          <input type="checkbox" class="mt-1" data-check-item="a" />
+          <span>Я открыл(а) главную страницу курса и прочитал(а) требования и календарь.</span>
+        </label>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">2) Выбрать направление ФСИ и тему</div>
+        <p class="text-sm text-slate-200/80 mt-2">Выберите 1 основную тему и 1 запасную (из витрины) и привяжите к направлению Н1–Н6.</p>
+        <label class="mt-4 flex items-start gap-3 text-sm text-slate-200/90">
+          <input type="checkbox" class="mt-1" data-check-item="b" />
+          <span>Я выбрал(а) тему + направление ФСИ и могу объяснить, почему выбрал(а) именно это.</span>
+        </label>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">3) Найти подтверждающую информацию</div>
+        <p class="text-sm text-slate-200/80 mt-2">Нужно минимум 2 источника: например, описание аналога + вакансия/кейс/статья с проблемой.</p>
+        <label class="mt-4 flex items-start gap-3 text-sm text-slate-200/90">
+          <input type="checkbox" class="mt-1" data-check-item="c" />
+          <span>У меня есть 2 ссылки и 3 факта своими словами (что именно я из них вынес(ла)).</span>
+        </label>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">4) Сформулировать инженерно‑технологическую проблему</div>
+        <p class="text-sm text-slate-200/80 mt-2">Используйте шаблон: «В … при … возникает …, поскольку …, что приводит к … у …».</p>
+        <label class="mt-4 flex items-start gap-3 text-sm text-slate-200/90">
+          <input type="checkbox" class="mt-1" data-check-item="d" />
+          <span>Моя формулировка содержит: контекст, негативный эффект, причину/ограничение, последствия и пользователя.</span>
+        </label>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">5) Заполнить карточку проекта и сдать</div>
+        <p class="text-sm text-slate-200/80 mt-2">Заполните шаблон карточки проекта. Если данные оценочные — пометьте как <span class="text-slate-50">предположение</span> и объясните, откуда оценка.</p>
+        <label class="mt-4 flex items-start gap-3 text-sm text-slate-200/90">
+          <input type="checkbox" class="mt-1" data-check-item="e" />
+          <span>Карточка проекта заполнена, источники оформлены, файл назван по шаблону: <span class="text-slate-50">Группа_Фамилия_Проект_З1</span>и прикреплен в ЛК СамГТУ на 10.02.</span>
+        </label>
+      </div>
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">5) Заполнить дневник на 10.02</div>
+        <p class="text-sm text-slate-200/80 mt-2">Заполните столбец <span class="text-slate-50">Описание выполняемых работ</span> на 10.02. Не забудьте заполнить раздел <span class="text-slate-50">Посещение образовательных мероприятий</span>.</p>
+        <label class="mt-4 flex items-start gap-3 text-sm text-slate-200/90">
+          <input type="checkbox" class="mt-1" data-check-item="e" />
+          <span>Описание выполняемых работ заполнено, образовательное мероприятие добавлено.</span>
+        </label>
+        <div class="flex flex-wrap gap-3">
+            <a href="https://disk.yandex.ru/i/-uKywCbZkSM6Cw" target="_blank" class="btn-ghost">Открыть дневники 4 группы</a>
+            <a href="https://disk.yandex.ru/d/wxcNuxGeUfLyQw" target="_blank" class="btn-ghost">Открыть дневники 9 группы</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resources" class="px-4 sm:px-8 max-w-6xl mx-auto pb-12">
+    <h2 class="text-2xl font-bold">Где искать информацию</h2>
+
+    <div class="mt-6 grid lg:grid-cols-3 gap-6">
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">ФСИ (УМНИК) — направления</div>
+        <ul class="mt-3 text-sm text-slate-200/80 space-y-2 list-disc pl-5">
+          <li><a class="underline hover:text-violet-200" href="https://fasie.ru/programs/programma-umnik/" target="_blank" rel="noopener">Программа «УМНИК»</a></li>
+          <li><a class="underline hover:text-violet-200" href="https://fasie.ru/press/fund/umnik/" target="_blank" rel="noopener">Новости/конкурсы и направления</a></li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">Реальный контекст (роли и задачи)</div>
+        <ul class="mt-3 text-sm text-slate-200/80 space-y-2 list-disc pl-5">
+          <li><a class="underline hover:text-violet-200" href="https://hh.ru" target="_blank" rel="noopener">hh.ru</a> — вакансии по ролям (инженер АСУ, диагност, технолог)</li>
+          <li>описания кейсов на сайтах компаний и интеграторов</li>
+          <li>инструкции и мануалы к оборудованию (требования/ограничения)</li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">Аналоги и исследования</div>
+        <ul class="mt-3 text-sm text-slate-200/80 space-y-2 list-disc pl-5">
+          <li><a class="underline hover:text-violet-200" href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a></li>
+          <li><a class="underline hover:text-violet-200" href="https://www.elibrary.ru" target="_blank" rel="noopener">eLIBRARY</a></li>
+          <li><a class="underline hover:text-violet-200" href="https://patents.google.com" target="_blank" rel="noopener">Google Patents</a></li>
+          <li><a class="underline hover:text-violet-200" href="https://worldwide.espacenet.com" target="_blank" rel="noopener">Espacenet</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="card" class="px-4 sm:px-8 max-w-6xl mx-auto pb-16">
+    <h2 class="text-2xl font-bold">Шаблоны для скачивания</h2>
+    <div class="mt-6 grid lg:grid-cols-3 gap-6">
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">Шаблон карточки проекта</div>
+        <p class="text-sm text-slate-200/80 mt-2">DOCX — заполните и приложите 2+ источника.</p>
+        <a class="btn-primary mt-4" href="../downloads/template_project_card.docx" download>Скачать</a>
+      </div>
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">Витрина тем (интерактивно)</div>
+        <p class="text-sm text-slate-200/80 mt-2">Выберите тему на главной странице курса и сохраните выбор.</p>
+        <a class="btn-ghost mt-4" href="../index.html#topics">Открыть витрину</a>
+      </div>
+      <div class="glass-card p-6 rounded-2xl">
+        <div class="text-sm font-semibold">Критерии (проверка себя)</div>
+        <p class="text-sm text-slate-200/80 mt-2">Перед сдачей проверьте, что проблема сформулирована по шаблону и подтверждена фактами.</p>
+        <a class="btn-ghost mt-4" href="#deliverables">Проверить</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="../js/topics.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Занятие 2 — Формулирование инженерно-технологической проблемы, цели и задач проекта</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" href="../assets/favicon.ico" />
+</head>
+<body class="bg-slate-950 text-slate-50">
+<header class="glass-header">
+  <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3">
+      <div class="logo-circle">
+              <div class="logo-letter">
+        УП
+      </div>
+      </div>
+    <div>
+      <div class="font-semibold tracking-wide text-slate-50">Учебная практика</div>
+      <div class="text-xs text-slate-300">Занятие 2</div>
+    </div>
+  </div>
+  <nav class="hidden md:flex items-center gap-6 text-sm">
+    <a href="../index.html#lessons" class="nav-link">Все занятия</a>
+    <a href="#deliverables" class="nav-link">Что сдать</a>
+    <a href="#tasks" class="nav-link">Задание</a>
+    <a href="#howto" class="nav-link">Как делать</a>
+    <a href="#examples" class="nav-link">Примеры</a>
+    <a href="#resources" class="nav-link">Ресурсы</a>
+    <a href="#downloads" class="nav-link">Шаблоны</a>
+  </nav>
+  <div class="flex items-center gap-3">
+    <a href="../index.html" class="hidden md:inline-flex px-3 py-1.5 text-xs rounded-full border border-violet-400/80 bg-violet-500/10 hover:bg-violet-500/20 transition">На главную</a>
+  </div>
+</header>
+
+<main class="relative overflow-hidden" data-lesson-id="2">
+  <div class="bg-grid"></div>
+
+  <!-- HERO -->
+  <section class="relative pt-32 pb-10 px-4 sm:px-8 max-w-6xl mx-auto">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-emerald-400/60 bg-emerald-500/10 text-xs text-emerald-100">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      24.02.2026 · 3 часа
+    </div>
+    <div class="mt-5 flex items-center justify-between gap-4 flex-wrap">
+      <h1 class="text-3xl sm:text-4xl font-extrabold leading-tight">
+        Формулирование инженерно-технологической проблемы, цели и задач проекта
+      </h1>
+      <div id="progressBadge" class="px-3 py-1 rounded-full text-xs border border-slate-600/70 text-slate-200/90 bg-slate-900/40">
+        Прогресс: 0/0
+      </div>
+    </div>
+    <p class="text-slate-200/80 mt-3 max-w-3xl">
+      На этом занятии вы превращаете идею из занятия 1 в управляемый проект: уточняете проблему, формулируете одну измеримую цель и 3–5 задач с конкретным результатом.
+      Отмечайте выполнение пунктов — прогресс сохраняется в браузере.
+    </p>
+
+    <div class="mt-6 grid md:grid-cols-3 gap-4">
+      <div class="hero-card p-5">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80">Ключевое отличие</div>
+        <div class="mt-2 text-sm text-slate-200/90">
+          <b>Цель</b> — это <b>результат</b> (измеримый эффект).<br/>
+          <b>Задачи</b> — это <b>что сделать</b>, чтобы цель стала достижимой.
+        </div>
+      </div>
+      <div class="hero-card p-5">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80">Мини-правило</div>
+        <div class="mt-2 text-sm text-slate-200/90">
+          Если в цели нет числа / критерия “да-нет” — это не цель, а пожелание.
+        </div>
+      </div>
+      <div class="hero-card p-5">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80">Что будет проверяться</div>
+        <div class="mt-2 text-sm text-slate-200/90">
+          Связность: <b>проблема → цель → задачи</b> + наличие фактов/источников.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DELIVERABLES -->
+  <section id="deliverables" class="px-4 sm:px-8 max-w-6xl mx-auto pb-10">
+    <div class="grid lg:grid-cols-2 gap-8 items-start">
+      <div class="hero-card p-6">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80 mb-3">Что сдать по итогам занятия</div>
+        <ul class="space-y-3 text-sm text-slate-200/90">
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Уточнённая проблема</b> (шаблон + причина + последствия + для кого).</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>1 цель</b> (SMART-проверка) + <b>3–5 задач</b> (каждая с результатом).</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Таблица</b> «Проблема–цель–задачи» (с метрикой/критерием успеха).</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Мини-контроль качества</b>: 2 источника + 3 факта своими словами.</span></li>
+        </ul>
+      </div>
+      <div class="hero-card p-6">
+        <div class="text-xs uppercase tracking-wide text-slate-300/80 mb-3">Чек-лист выполнения</div>
+        <div class="space-y-3">
+
+          <label class="flex items-start gap-3 p-3 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition cursor-pointer">
+            <input type="checkbox" class="mt-1" data-check-item="l2_1" />
+            <div class="text-sm text-slate-200/90">Проблема уточнена: причина + последствия + кто страдает.</div>
+          </label>
+
+          <label class="flex items-start gap-3 p-3 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition cursor-pointer">
+            <input type="checkbox" class="mt-1" data-check-item="l2_2" />
+            <div class="text-sm text-slate-200/90">Цель сформулирована измеримо (есть метрика/критерий).</div>
+          </label>
+
+          <label class="flex items-start gap-3 p-3 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition cursor-pointer">
+            <input type="checkbox" class="mt-1" data-check-item="l2_3" />
+            <div class="text-sm text-slate-200/90">Есть 3–5 задач, каждая заканчивается “что будет готово”.</div>
+          </label>
+
+          <label class="flex items-start gap-3 p-3 rounded-xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition cursor-pointer">
+            <input type="checkbox" class="mt-1" data-check-item="l2_4" />
+            <div class="text-sm text-slate-200/90">Заполнена таблица + добавлены 2 источника и 3 факта своими словами.</div>
+          </label>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TASKS -->
+  <section id="tasks" class="px-4 sm:px-8 max-w-6xl mx-auto pb-10">
+    <h2 class="text-2xl font-bold">Индивидуальное задание</h2>
+    <div class="grid md:grid-cols-2 gap-6 mt-5">
+      <div class="glass-card p-6 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+        <div class="text-sm font-semibold">Что сделать на занятии (пошагово)</div>
+        <ol class="mt-4 space-y-2 text-sm text-slate-200/90 list-decimal list-inside">
+          <li>Откройте карточку проекта (занятие 1) и перепроверьте формулировку проблемы по шаблону.</li>
+          <li>Сделайте уточнение проблемы: найдите <b>минимум 1 причину</b> и <b>2 последствия</b> (с фактами и ссылками).</li>
+          <li>Сформулируйте <b>1 цель</b>: добавьте метрику (или критерий “да/нет”), срок и базовое значение “сейчас”.</li>
+          <li>Разложите цель на <b>3–5 задач</b>, каждая должна заканчиваться конкретным результатом (артефактом).</li>
+          <li>Заполните шаблон XLSX “Проблема–цель–задачи” и проверьте связность: задачи реально ведут к цели.</li>
+        </ol>
+      </div>
+      <div class="glass-card p-6 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+        <div class="text-sm font-semibold">Что сделать после занятия</div>
+        <ol class="mt-4 space-y-2 text-sm text-slate-200/90 list-decimal list-inside">
+          <li>Приведите формулировки к аккуратному виду: единицы измерения, одинаковые термины, ссылки оформлены.</li>
+          <li>Убедитесь, что у цели есть измеримость (число/процент/время/точность/критерий “да-нет”).</li>
+          <li>Сдайте материалы в установленный канал (LMS/почта/папка группы) и отметьте выполненное в дневнике практики.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO -->
+  <section id="howto" class="px-4 sm:px-8 max-w-6xl mx-auto pb-10">
+    <h2 class="text-2xl font-bold">Как делать: проблема → цель → задачи</h2>
+
+    <div class="grid lg:grid-cols-3 gap-6 mt-5">
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">Шаг 1. Уточняем проблему</div>
+        <p class="text-sm text-slate-200/80 mt-3">
+          Проблема — это не “хочу сделать систему”, а <b>негативный эффект</b> в реальном процессе.
+        </p>
+        <div class="mt-4 text-sm text-slate-200/90 space-y-2">
+          <div class="p-3 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80 mb-1">Шаблон</div>
+            <div>
+              «В <b>процессе/системе</b> … при … возникает …, поскольку …, что приводит к … у …»
+            </div>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80 mb-1">Мини-проверка</div>
+            <div>Есть причина? Есть последствия? Понятно, кто страдает?</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">Шаг 2. Ставим цель</div>
+        <p class="text-sm text-slate-200/80 mt-3">
+          Цель должна отвечать на вопрос: <b>что изменится</b> и <b>как это проверить</b>.
+        </p>
+        <div class="mt-4 space-y-2 text-sm text-slate-200/90">
+          <div class="p-3 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80 mb-1">Формат цели (рекомендуем)</div>
+            <div>Снизить/повысить <b>метрику</b> с X до Y <b>к дате</b> (или за N недель).</div>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80 mb-1">SMART-проверка (быстро)</div>
+            <div class="space-y-1">
+              <div>• S: конкретно?</div>
+              <div>• M: измеримо?</div>
+              <div>• A: достижимо в рамках семестра?</div>
+              <div>• R: связано с проблемой?</div>
+              <div>• T: есть срок?</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">Шаг 3. Делаем задачи</div>
+        <p class="text-sm text-slate-200/80 mt-3">
+          Задача — это действие + результат. В конце задачи должен быть <b>артефакт</b>.
+        </p>
+        <div class="mt-4 space-y-2 text-sm text-slate-200/90">
+          <div class="p-3 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80 mb-1">Шаблон задачи</div>
+            <div>Выполнить …, чтобы получить … (документ/таблицу/модель/прототип/метрику).</div>
+          </div>
+          <div class="p-3 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80 mb-1">Пример “результата”</div>
+            <div>«Сформирован реестр датчиков и требований», «Собраны 3 аналога», «Описан сценарий».</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6 grid md:grid-cols-2 gap-6">
+      <div class="glass-card p-6 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+        <div class="text-sm font-semibold">Инструмент уточнения причины: “5 почему”</div>
+        <p class="text-sm text-slate-200/80 mt-3">
+          Задайте “почему?” 3–5 раз, чтобы уйти от симптома к причине. Запишите цепочку.
+        </p>
+        <div class="mt-4 p-4 rounded-xl border border-slate-700/60 bg-slate-900/40 text-sm text-slate-200/90">
+          <div class="text-xs text-slate-300/80 mb-2">Шаблон</div>
+          <div>Проблема: …</div>
+          <div>Почему 1: …</div>
+          <div>Почему 2: …</div>
+          <div>Почему 3: …</div>
+          <div>(Почему 4/5 — если нужно)</div>
+        </div>
+      </div>
+
+      <div class="glass-card p-6 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+        <div class="text-sm font-semibold">Метрики (подсказки для инженерных проектов)</div>
+        <p class="text-sm text-slate-200/80 mt-3">
+          Выберите 1–2 метрики, которые реально отражают проблему.
+        </p>
+        <ul class="mt-4 space-y-2 text-sm text-slate-200/90">
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Время</b>: мин/операцию, час/простой, время реакции.</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Точность</b>: %, ошибка, ложные срабатывания/пропуски.</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Качество</b>: доля брака, выход за допуск, стабильность.</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Ресурсы</b>: энергопотребление, расход, нагрузка на оператора.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXAMPLES -->
+  <section id="examples" class="px-4 sm:px-8 max-w-6xl mx-auto pb-10">
+    <h2 class="text-2xl font-bold">Примеры: как хорошо и как плохо</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 mt-5">
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">❌ Плохо (слишком общо)</div>
+        <div class="mt-4 space-y-3 text-sm text-slate-200/90">
+          <div class="p-4 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80">Проблема</div>
+            <div>«Нет автоматизации, поэтому всё плохо»</div>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80">Цель</div>
+            <div>«Повысить эффективность работы системы»</div>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80">Задачи</div>
+            <div>«Изучить…», «Проанализировать…», «Разработать…» (без результата)</div>
+          </div>
+          <div class="text-xs text-slate-300/80">Почему плохо: нет метрик, нет причин/последствий, непонятно, что получится в итоге.</div>
+        </div>
+      </div>
+
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">✅ Хорошо (инженерно и измеримо)</div>
+        <div class="mt-4 space-y-3 text-sm text-slate-200/90">
+          <div class="p-4 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80">Проблема</div>
+            <div>«В процессе эксплуатации оборудования отклонения режима выявляются поздно, поскольку оператор видит параметры разрозненно, что приводит к простою и росту затрат у владельца процесса.»</div>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80">Цель</div>
+            <div>«Снизить среднее время обнаружения отклонения с 10 до 3 минут в тестовом сценарии к концу семестра.»</div>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-700/60 bg-slate-900/40">
+            <div class="text-xs text-slate-300/80">Задачи (3–5)</div>
+            <div class="space-y-1">
+              <div>1) Определить перечень контролируемых параметров и источники данных (таблица требований).</div>
+              <div>2) Описать правило/метод обнаружения отклонений (алгоритм + критерии).</div>
+              <div>3) Подготовить тестовый набор данных/сценариев (файл/описание).</div>
+              <div>4) Оценить метрику “время обнаружения” и “ложные тревоги” (таблица результатов).</div>
+            </div>
+          </div>
+          <div class="text-xs text-slate-300/80">Почему хорошо: есть измеримость, артефакты, связь с проблемой и ЦА.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-6 hero-card p-6">
+      <div class="text-sm font-semibold">Частые ошибки (и как исправить)</div>
+      <ul class="mt-3 space-y-2 text-sm text-slate-200/90">
+        <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Цель = действие</b> (“разработать систему”) → замените на <b>изменение метрики</b>.</span></li>
+        <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Задачи без результата</b> (“проанализировать”) → добавьте <b>что должно быть готово</b>.</span></li>
+        <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Нет базового значения</b> “как сейчас” → добавьте X (до) и Y (после).</span></li>
+        <li class="flex gap-3"><span class="dot mt-2"></span><span><b>Нет источников</b> → минимум 2 ссылки на данные/описание процесса/аналог.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="px-4 sm:px-8 max-w-6xl mx-auto pb-10">
+    <h2 class="text-2xl font-bold">Ресурсы и подсказки</h2>
+
+    <div class="grid md:grid-cols-2 gap-6 mt-5">
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">Быстрое правило качества</div>
+        <p class="text-sm text-slate-200/80 mt-3">
+          Каждый блок должен содержать <b>осязаемый результат</b>: таблица, список, критерий, ссылка, метрика или схема.
+          Формулировки типа «улучшить/повысить/проанализировать» без метрик и результата не принимаются.
+        </p>
+        <div class="mt-4 p-4 rounded-xl border border-slate-700/60 bg-slate-900/40 text-sm text-slate-200/90">
+          <div class="text-xs text-slate-300/80 mb-2">Мини-критерии “ОК”</div>
+          <div class="space-y-1">
+            <div>• Проблема: причина + последствия + кто страдает</div>
+            <div>• Цель: метрика + X→Y + срок</div>
+            <div>• Задачи: 3–5 шт., каждая с артефактом</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card p-6">
+        <div class="text-sm font-semibold">Где искать данные и примеры</div>
+        <ul class="mt-3 space-y-2 text-sm text-slate-200/90">
+          <li class="flex gap-3"><span class="dot mt-2"></span><span>Документация аналогов: требования, описания функций, ограничения.</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span>Публикации/патенты: описание проблемы и подходов (как подтверждение “такое бывает”).</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span>Вакансии и роли: задачи пользователя, KPI, типовые процессы.</span></li>
+          <li class="flex gap-3"><span class="dot mt-2"></span><span>Сайты производителей/интеграторов: кейсы, характеристики, примеры внедрений.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-6 glass-card p-6 rounded-2xl border border-slate-700/60 bg-slate-900/40">
+      <div class="text-sm font-semibold">Рекомендуемая статья (по желанию)</div>
+      <p class="text-sm text-slate-200/80 mt-2">
+        Можно использовать как дополнительное чтение про цели и задачи. Важно: не копировать текст, а применить принципы к своему проекту.
+      </p>
+      <div class="mt-3 text-sm text-slate-200/90">
+        • Kaiten: «Цели и задачи проекта: как сформулировать…» — добавить ссылку на статью в списке ресурсов (по усмотрению преподавателя).
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOADS -->
+  <section id="downloads" class="px-4 sm:px-8 max-w-6xl mx-auto pb-20">
+    <h2 class="text-2xl font-bold">Шаблоны для скачивания</h2>
+    <div class="grid md:grid-cols-2 gap-6 mt-5">
+      <a class="block p-5 rounded-2xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition"
+         href="../downloads/template_problem_goal_tasks.xlsx" download>
+        <div class="text-sm font-semibold">Шаблон таблицы «Проблема–цель–задачи» (XLSX)</div>
+        <div class="text-xs text-slate-300/80 mt-1">Скачать: template_problem_goal_tasks.xlsx</div>
+      </a>
+
+      <a class="block p-5 rounded-2xl border border-slate-700/60 bg-slate-900/40 hover:bg-slate-900/60 transition"
+         href="../downloads/template_problem_5whys.docx" download>
+        <div class="text-sm font-semibold">Мини-шаблон «5 почему» (DOCX) — опционально</div>
+        <div class="text-xs text-slate-300/80 mt-1">Скачать: template_problem_5whys.docx</div>
+      </a>
+    </div>
+    <p class="text-xs text-slate-400/80 mt-4">
+      Примечание: если файла «5 почему» ещё нет в downloads — можно удалить эту кнопку или добавить документ позже.
+    </p>
+  </section>
+
+  <footer class="px-4 sm:px-8 max-w-6xl mx-auto pb-16 text-xs text-slate-400/80">
+    <div class="border-t border-slate-700/50 pt-6">
+      <div>© Учебная практика · Проектная деятельность</div>
+      <div class="mt-1">Навигация: <a class="underline hover:text-slate-200" href="../index.html#lessons">все занятия</a>.</div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="../js/topics.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>
